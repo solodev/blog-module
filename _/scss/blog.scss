@@ -1,0 +1,38 @@
+.bg-hover-light-gray-dark {
+  background: #e1e1e1!important;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.btn-outline-secondary:not(.disabled):not(:disabled) {
+  color: #fff;
+  background-color: #3d5d6f;
+  border-color: #3d5d6f;
+}
+.small, small {
+  font-size: 88%;
+}
+.lead-sm {
+    font-size: 1.15em;
+    font-weight: 300;
+}
+.tags-list a:first-child:before {
+    content: "\f02e";
+    font-family: 'Font Awesome 5 Free';
+    color: #d60e96;
+    padding-right: 1rem;
+}
+.top-neg {
+  top: -12px;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .w-lg-50 {
+    width: 50%; !important
+  }
+}
