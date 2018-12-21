@@ -109,29 +109,3 @@ window.onload = function () {
     }
 };
 
-
-
-/** ===========================================
-  # OnClick Fixes
-============================================ */
-
-document.addEventListener("DOMContentLoaded", function (evt) {
-    var recordOutboundLink = function (url) {
-        var trackerName = ga.getAll()[0].get('name');
-        ga(trackerName + '.send', 'event', 'link', 'click', url, {
-            'transport': 'beacon',
-            'hitCallback': function () {
-                return false;
-            }
-        });
-    }
-    var documentTrack = function (url) {
-        var trackerName = ga.getAll()[0].get('name');
-        ga(trackerName + '.send', 'event', 'link', 'click', url, {
-            'transport': 'beacon',
-            'hitCallback': function () {
-                return false;
-            }
-        });
-    }
-});
