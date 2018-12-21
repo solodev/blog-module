@@ -11,11 +11,8 @@
         $('#listingImage').hide();
         $('#rssImage').hide();
       }
-
     });
-
     $("#resourceTypeSelect").trigger("change");
-
   });
 </script>
 
@@ -208,7 +205,7 @@
         <div class="row">
           <div class="col-md-12">
             <p class="subText">You can access this blog post at the following URL:</p>
-            <a href="http://lunar.solodev.org<?= $calendar_entry->path ?>" target="_blank">http://lunar.solodev.org
+            <a href="http://SITE_NAME.org<?= $calendar_entry->path ?>" target="_blank">http://SITE_NAME.org
               <?= $calendar_entry->path ?></a>
           </div>
         </div>
