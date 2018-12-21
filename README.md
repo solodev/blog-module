@@ -9,7 +9,7 @@
 ## Step 1: Add the Form
  - blog-form.tpl
 
-Create a calendar for the Blog and upload the following form 
+Create a calendar for the Blog and upload the following form. Be sure to replace SITE_NAME with your site's name.
 
 ```
 <script>
@@ -219,7 +219,7 @@ Create a calendar for the Blog and upload the following form
         <div class="row">
           <div class="col-md-12">
             <p class="subText">You can access this blog post at the following URL:</p>
-            <a href="http://lunar.solodev.org<?= $calendar_entry->path ?>" target="_blank">http://lunar.solodev.org
+            <a href="http://SITE_NAME.org<?= $calendar_entry->path ?>" target="_blank">http://SITE_NAME.org
               <?= $calendar_entry->path ?></a>
           </div>
         </div>
