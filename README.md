@@ -9,7 +9,7 @@
 ## Step 1: Add the Form
  - blog-form.tpl
 
-Create a calendar for Alerts and upload the following form 
+Create a calendar for the Blog and upload the following form 
 
 ```
 <script>
@@ -245,7 +245,7 @@ Create a calendar for Alerts and upload the following form
 ## Step 2: Add the Repeater
  - blog-repeater.tpl
 
-Add the following repeater shortcode. Since users will see this alert on all pages until they close it, it is best to include it in a template that is used throughout the site.
+Add the following repeater shortcode. 
 
 ```
 [repeater id='1' pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
