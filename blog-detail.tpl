@@ -9,7 +9,7 @@
     </span>
   </p>
   <div class="mt-4">
-    [social_share_fa_2 domain="lunarxp.solodev.org" protocol="http" facebook="true" twitter="true" linkedin="true" mail="true" container_classes="list-unstyled d-flex flex-wrap" classes="rounded-circle text-secondary text-hover-secondary-dark border border-secondary h-35p w-35p fa-lg mr-2 d-flex justify-content-center align-items-center" version="5"]
+    [social_share_fa domain="lunarxp.solodev.org" protocol="http" facebook="true" twitter="true" linkedin="true" mail="true" container_classes="list-unstyled d-flex flex-wrap" classes="rounded-circle text-secondary text-hover-secondary-dark border border-secondary h-35p w-35p fa-lg mr-2 d-flex justify-content-center align-items-center" version="5"]
   </div>
   <hr>
   <p class="lead-sm">{{post_intro}}</p>
