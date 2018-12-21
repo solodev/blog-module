@@ -46,7 +46,7 @@
 
               unset($oImage);
             ?>
-        <div class="valign-middle">
+        <div>
           <img alt="<?= $item->event_title ?>" class="img-fluid rounded-circle" src="<?= $imageURL ?>">
         </div>
       </div>
