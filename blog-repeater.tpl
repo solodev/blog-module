@@ -20,7 +20,7 @@
 					[/is_empty]
 				</h2>
 				<p class="post-intro my-4">{{post_intro}}</p>
-				<p class="hidden-sm-down">
+				<p class="d-none d-sm-block">
 					<a aria-label="Blog Post Read More" class="btn btn-primary btn-md" href="{{path}}">Read More</a>
 				</p>
 			</div>
@@ -37,7 +37,7 @@
 [repeater id='1' pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
 	[cond type="is_not" subject="{{index}}" value="0"]
 	<div class="col-sm-6 col-lg-4 mt-4">
-		<div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100" onclick="location.href='{{path}}'">
+		<div class="bg-light-gray bg-hover-light-gray-dark pointer h-100" onclick="location.href='{{path}}'">
 			<img alt="{{event_title}}" src="[get_asset_file_url id={{listing_image}}]" class="img-fluid h-200p cover w-100">
 			<div class="p-3 p-lg-4">
 				
