@@ -26,12 +26,13 @@
 .top-neg {
   top: -12px;
 }
+
+.cover {
+  object-fit: cover;
+}
+
 @media screen and (min-width: 992px) {
   .w-lg-50 {
     width: 50%; !important
   }
-}
-
-.cover {
-  object-fit: cover;
 }
