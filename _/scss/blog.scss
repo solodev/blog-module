@@ -17,11 +17,17 @@
     font-size: 1.15em;
     font-weight: 300;
 }
-.tags-list a:first-child:before {
-    content: "\f02e";
-    font-family: 'Font Awesome 5 Free';
-    color: #d60e96;
-    padding-right: 1rem;
+.tags-list {
+  a {
+      &:first-child {
+        &:before {
+          content: "\f02e";
+          font-family: 'Font Awesome 5 Free';
+          color: #d60e96;
+          padding-right: 1rem;
+        }
+     }
+  }
 }
 .top-neg {
   top: -12px;
