@@ -65,5 +65,5 @@
     } ?>
   </div>
 </article>
-
+{{post_javascript}}
 [/entry]
