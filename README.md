@@ -392,7 +392,7 @@ Add the following repeater shortcode.
     } ?>
   </div>
 </article>
-
+{{post_javascript}}
 [/entry]
 ```
 
